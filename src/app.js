@@ -1,8 +1,8 @@
 //Importamos la librería Express
-//const express = require('express');
+const express = require('express');
 //Ejecutamos la función express, obteniendo todas las funcionalidades. app es un objeto
 //literal con propiedades y funcionalidades de EXPRESS.
-//const app = express();
+const app = express();
 //Importamos el modulo nativo PATH
 const path = require('path');
 
