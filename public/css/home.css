@@ -1,0 +1,149 @@
+
+/*****************Body*********************/
+
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    background-color: #EAC926;
+}
+
+/********************************************
+                  Mobile 
+********************************************/
+
+/*****************Header********************/
+/*******************************************/
+header{
+    background-color: #EAC926;    
+}
+
+.top-header{
+    margin-top: 15px;
+}
+
+#logo-mercadoliebre{
+    width: 45%;
+    margin-left: 15px;
+}
+
+.bar-busqueda{ 
+    display:block;
+    margin-left: 5%;
+}
+
+.cuotas-tarjetas{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+
+.bar_nav{ /*ver*/
+    margin-left: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu-burger {
+    padding-bottom: 0.5rem;
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
+
+.menu-burger i{
+    color: white;
+    padding: 0.5rem;
+    border-radius: 15%;
+    background-color: #03264C;
+}
+
+#banner img{  /*ver*/
+    width: 100vw;
+}
+
+article img{ /*body*/
+    width: 100vw;
+}
+
+/**************** main ******************/
+/******************************************/
+
+main{
+       
+}
+
+.articulos h2{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px; 
+}
+
+articulos h3{
+    font-size: 16px; 
+}
+
+/**************** Footer ******************/
+/******************************************/
+footer{
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+}
+
+.seccion-footer{ /*ver*/
+    padding: 1rem 1rem;
+    text-align: center;
+    max-width: 10rem;
+}
+
+.fa-credit-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+
+.fa-gift{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+
+.fa-user-shield{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
