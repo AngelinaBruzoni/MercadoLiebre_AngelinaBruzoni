@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresá</title>
+    <!--Iconos de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Tipografia de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <!--Hoja de estilo de register.html-->
+    <link href="/css/login.css" rel="stylesheet">
+</head>
+<body>
+    <!--***********************************************************************
+                            Header 
+    ************************************************************************-->
+    <header>
+        <section class="header_top">
+            <!--***************** Logo de MercadoLiebre *****************-->
+            <a href="/"><img id="logo-mercadoliebre" src="img/logo-mercado-liebre.svg" alt="Aquí va la imágen del logo"></a>
+        
+            <!--***************** Barra de Busqueda *****************-->
+            <section class="bar-busqueda">
+                    <input type="text" placeholder="Buscá productos, marcas" required>
+                    <button type="submit"><i class="fas fa-search"></i></button>
+            </section>
+
+            <!--***************** Compra en Cuotas y tarjeta de crédito *****************-->
+            <section class="cuotas-tarjetas">
+                <div><i class="fas fa-hand-holding-usd"></i></div>
+                <p>Comprá en cuotas y sin tarjeta de crédito<p>
+            </section>
+        </section>
+
+        <section class="header_bottom">
+            <!--***************** barra de navegación*****************-->
+            <nav>
+                <ul class="bar-navegacion">
+                    <li><a href="#" class="link-nav">Ofertas</a></li>
+                    <li><a href="#" class="link-nav">Tiendas Oficiales</a></li>
+                    <li><a href="#" class="link-nav">Vender</a></li>
+                    <li><a href="#" class="link-nav">Ayuda</a></li>
+                </ul>
+                <ul class="bar-navegacion">
+                    <li>
+                        <a href="/register" class="link-nav">Creá tu cuenta<i class="far fa-id-card"></i></a>
+                        
+                    </li>
+                    <li>
+                        <a href="/login" class="link-nav">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+                        
+                    </li>
+                    <li>
+                    <a href="#" class="link-nav">Mis compras<i class="fas fa-shopping-basket"></i></a>
+                    
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <!--***************** Menu Hamburguesa *****************-->
+        <div class="menu-burger">
+            <i class="fa fa-bars burger"></i>
+        </div>
+    </header>
+    
+    <!--***********************************************************************
+                            Main 
+    ************************************************************************-->
+    <main>
+        <form action="#" method="post" id="login-form">
+            <div>
+                <label for="nombre-usuario">Nombre de usuari@</label>
+                <input type="text" name="nombre-usuario" id="nombre-usuario" required>   
+            </div>
+            <div>
+                <label>Contraseña</label>
+                <input type="password" name="contraseña" required>   
+            </div>
+            <div>
+                <input type="submit" name="enviar" value="Enviar" onclick="location.href='/';" role="link"><!--preguntar-->
+            </div>
+        </form>
+    </main>
+
+     <!--***********************************************************************
+                            Footer 
+    ************************************************************************-->
+    <footer>
+
+        <!--************ Sección:Pagá con tarjeta o en efectivo ************-->
+        <section class="footer">
+            <section class="seccion-footer">
+                <i class="fas fa-credit-card"></i>
+                <h2> Pagá con tarjeta o en efectivo</h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+            </section>
+            <!--************ Sección:Envío gratis desde $ 2.500 ************-->
+            <section class="seccion-footer">
+                <i class="fas fa-gift"></i>     
+                <h2>Envío gratis desde $ 2.500</h2>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </section>
+            <!--************ Sección:Seguridad, de principio a fin ************-->
+            <section class="seccion-footer">
+                <i class="fas fa-user-shield"></i>     
+                <h2>Seguridad, de principio a fin</h2>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
+            </section>
+        </div>
+
+        <!--***************Copyright ***************-->
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
+    </footer>
+    
+</body>
+</html>

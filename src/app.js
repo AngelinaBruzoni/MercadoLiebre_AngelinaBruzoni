@@ -18,5 +18,14 @@ app.get('/',function(req,res){
     res.sendFile(path.resolve(__dirname,'./views/home.html'));// (.) indica donde estas actualmente.
 });
 
+app.get('/register',function(req,res){
+    res.sendFile(path.resolve(__dirname,'./views/register.html'));
+})
+
+app.get('/login',function(req,res){
+    res.sendFile(path.resolve(__dirname,'./views/login.html'));
+})
+
 //Seteamos la ruta a la carpeta de recursos estáticos public
 app.use(express.static(path.resolve(__dirname,'../public')));//Con .. voy hacia atrás 1 nivel
+
